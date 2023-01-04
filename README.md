@@ -1,3 +1,5 @@
+![DL cover](https://user-images.githubusercontent.com/19335954/210499958-e1230059-4b9c-4ea4-a5af-9901bd02ba18.png)
+
 
 # Deep Learning
 
@@ -42,7 +44,6 @@ Pedram is one of the project mentors at the [Analytics Solutions Center](https:/
 |Module 8- Deep Generative Modeling (AE, VAE, GAN)|
 |Module 9- Deep Reinforcement Learning (DQN, PG)|
 
-![DL cover](https://user-images.githubusercontent.com/19335954/210499958-e1230059-4b9c-4ea4-a5af-9901bd02ba18.png)
 
 <img src="images/Jahangirylogo.png" width=150 align="right">
 
