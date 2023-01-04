@@ -21,14 +21,16 @@ Pedram is one of the project mentors at the [Analytics Solutions Center](https:/
 [![Profile](https://img.shields.io/badge/Profile-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://huntsman.usu.edu/directory/jahangiry-pedram)
 [![linkedin](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pedram-jahangiry-cfa-5778015a)
 
+https://github-readme-twitter.gazf.vercel.app/api?id=twitter
 
 
 
-## Topics covered
+
+## 🎲 Topics covered
 
 | **Deep Learning**                                                                              |
 |--------------------------------------------------------------------------------------------------|
-| Module 1- Introduction to Deep Learning |
+|Module 1- Introduction to Deep Learning |
 |Module 2- Setting up Deep Learning Environment|
 |Module 3- Machine Learning review (ML fundamentals + models)|
 |Module 4- Deep Neural Networks (NN and DNN)|
