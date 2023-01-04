@@ -23,6 +23,7 @@ Pedram is one of the project mentors at the [Analytics Solutions Center](https:/
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pedram-jahangiry-cfa-5778015a)
 
 
+![image](https://user-images.githubusercontent.com/19335954/210499740-b4da91ce-ce7e-4dd2-8704-fc63ef13d667.png)
 
 
 
@@ -30,17 +31,15 @@ Pedram is one of the project mentors at the [Analytics Solutions Center](https:/
 
 | Deep Learning Topics                                                                              |
 |--------------------------------------------------------------------------------------------------|
-Module 1- Introduction to Deep Learning
-Module 2- Setting up Deep Learning Environment
-Module 3- Machine Learning review (ML fundamentals + models)
-Module 4- Deep Neural Networks (NN and DNN)
-Module 5- Deep Computer Vision (CNN, R-CNN, YOLO, FCN)
-Module 6- Deep Sequence Modeling (RNN, LSTM)
-Module 7- Transformers (Attention is all you need!)
-Module 8- Deep Generative Modeling (AE, VAE, GAN)
-Module 9- Deep Reinforcement Learning (DQN, PG)
-![image](https://user-images.githubusercontent.com/19335954/210499545-353e5cc5-670e-4722-971d-247010f7f998.png)
-
+| Module 1- Introduction to Deep Learning |
+|Module 2- Setting up Deep Learning Environment|
+|Module 3- Machine Learning review (ML fundamentals + models)|
+|Module 4- Deep Neural Networks (NN and DNN)|
+|Module 5- Deep Computer Vision (CNN, R-CNN, YOLO, FCN)|
+|Module 6- Deep Sequence Modeling (RNN, LSTM)|
+|Module 7- Transformers (Attention is all you need!)|
+|Module 8- Deep Generative Modeling (AE, VAE, GAN)|
+|Module 9- Deep Reinforcement Learning (DQN, PG)|
 
 
 
