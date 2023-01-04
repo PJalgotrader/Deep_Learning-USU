@@ -30,24 +30,17 @@ Pedram is one of the project mentors at the [Analytics Solutions Center](https:/
 
 | Deep Learning Topics                                                                              |
 |--------------------------------------------------------------------------------------------------|
-| ML introduction                                                                                  |
-| Python Crash Course                                                                              |
-| Machine learning concepts (Part 1: Overfitting, Bias-variance trade off, Evaluation metric)      |
-| Machine learning concepts (Part 2:  Cross validation+ loss functions + Gradient descent and SGD) |
-| Machine learning concepts (Part 3: Putting it all together!)                                     |
-| Linear regression                                                          |
-| Polynomial regression                                              |
-| Regularization (Ridge + Lasso + Elastic Net)                                           |
-| Logistic regression                                                                      |
-| Classification metrics                                                                           |
-| KNN regression and classification (Theory)                                                       |
-| Support Vector Machines                                       |
-| Decision Tree                                                                 |
-| Random Forest                                                                           |
-| Boosting                                                       |
-| Dimensionality Reduction: PCA                                                           |
-| Clustering : K-mean and Hirearchichal                                                  |
-| PyCaret me!                                                                                      |
+Module 1- Introduction to Deep Learning
+Module 2- Setting up Deep Learning Environment
+Module 3- Machine Learning review (ML fundamentals + models)
+Module 4- Deep Neural Networks (NN and DNN)
+Module 5- Deep Computer Vision (CNN, R-CNN, YOLO, FCN)
+Module 6- Deep Sequence Modeling (RNN, LSTM)
+Module 7- Transformers (Attention is all you need!)
+Module 8- Deep Generative Modeling (AE, VAE, GAN)
+Module 9- Deep Reinforcement Learning (DQN, PG)
+![image](https://user-images.githubusercontent.com/19335954/210499545-353e5cc5-670e-4722-971d-247010f7f998.png)
+
 
 
 
