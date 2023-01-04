@@ -21,7 +21,7 @@ Pedram is one of the project mentors at the [Analytics Solutions Center](https:/
 [![Profile](https://img.shields.io/badge/Profile-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://huntsman.usu.edu/directory/jahangiry-pedram)
 [![linkedin](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pedram-jahangiry-cfa-5778015a)
 
-https://github-readme-twitter.gazf.vercel.app/api?id=twitter
+https://github-readme-twitter.gazf.vercel.app/api?id=PedramJahangiry
 
 
 
