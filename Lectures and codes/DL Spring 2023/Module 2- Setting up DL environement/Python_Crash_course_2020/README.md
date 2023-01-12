@@ -10,6 +10,7 @@ Here is the link to my YouTube playlist for Python Crash course! https://www.you
 4. Matplotlib
 5. Pandas visualization
 6. Seaborn
+7. Time series (optional)
 
 
 
