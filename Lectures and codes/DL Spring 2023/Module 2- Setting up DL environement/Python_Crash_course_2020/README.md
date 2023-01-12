@@ -2,15 +2,15 @@ Here is the link to my YouTube playlist for Python Crash course! https://www.you
 
 
 **Topics**: 
-1. Installation!
-2. What is Python notebook!
-3. Python Basics
-4. Numpy
-5. Pandas
-6. Matplotlib
-7. Pandas visualization
-8. Seaborn
-9. Time series 
+* Installation!
+* What is Python notebook!
+1. Python Basics
+2. Numpy
+3. Pandas
+4. Matplotlib
+5. Pandas visualization
+6. Seaborn
+
 
 
 ## 🔗 Links
