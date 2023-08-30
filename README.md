@@ -42,7 +42,6 @@ Pedram is one of the project mentors at the [Analytics Solutions Center](https:/
 |Module 6- Deep Sequence Modeling (RNN, LSTM)|
 |Module 7- Transformers (Attention is all you need!)|
 |Module 8- Deep Generative Modeling (AE, VAE, GAN)|
-|Module 9- Deep Reinforcement Learning (DQN, PG)|
 
 
 <img src="images/Jahangirylogo.png" width=150 align="right">
