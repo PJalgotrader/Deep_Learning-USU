@@ -30,7 +30,7 @@ Pedram is one of the project mentors at the [Analytics Solutions Center](https:/
 
 
 
-## 🎲 Topics covered
+## 🎲 Topics covered (Spring 2024)
 
 | **Deep Learning**                                                                              |
 |--------------------------------------------------------------------------------------------------|
@@ -41,7 +41,6 @@ Pedram is one of the project mentors at the [Analytics Solutions Center](https:/
 |Module 5- Deep Computer Vision (CNN, R-CNN, YOLO, FCN)|
 |Module 6- Deep Sequence Modeling (RNN, LSTM)|
 |Module 7- Transformers (Attention is all you need!)|
-|Module 8- Deep Generative Modeling (AE, VAE, GAN)|
 
 
 <img src="images/Jahangirylogo.png" width=150 align="right">
