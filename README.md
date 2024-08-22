@@ -1,7 +1,7 @@
 ![DL cover](https://user-images.githubusercontent.com/19335954/210499958-e1230059-4b9c-4ea4-a5af-9901bd02ba18.png)
 
 
-# Deep Learning
+# Deep Learning (2024-2025)
 
 Repository for deep learning courses owned and maintained by prof. Jahangiry
 
