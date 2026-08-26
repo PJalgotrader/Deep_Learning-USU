@@ -1,7 +1,7 @@
 ![DL cover](https://user-images.githubusercontent.com/19335954/210499958-e1230059-4b9c-4ea4-a5af-9901bd02ba18.png)
 
 
-# Deep Learning (2025-2026)
+# Deep Learning
 
 Repository for deep learning courses owned and maintained by prof. Jahangiry
 
@@ -30,7 +30,7 @@ Pedram is one of the project mentors at the [Analytics Solutions Center](https:/
 
 
 
-## 🎲 Topics covered (Spring 2025)
+## 🎲 Topics covered 
 
 | **Deep Learning**                                                                              |
 |--------------------------------------------------------------------------------------------------|
