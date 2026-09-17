@@ -32,6 +32,31 @@ See the [Fall 2026 course schedule](https://docs.google.com/spreadsheets/d/1qzFD
 | [`Platforms and tools/`](./Platforms%20and%20tools/) | Google Colab, PyCaret, and development-tool resources |
 | [`data/`](./data/) | Course datasets used by selected notebooks and examples |
 | [`images/`](./images/) | Images used by this README and other repository materials |
+| [`environment.yml`](./environment.yml) | The local conda environment (`dl_pycaret`, Python 3.13) for the PyCaret notebooks |
+| [`scripts/`](./scripts/) | `check_environment.py`, which confirms that the PyCaret environment works |
+
+## Running the PyCaret notebooks
+
+Module 3, one Module 6 forecasting notebook, and the demos in [`Platforms and tools/PyCaret/`](./Platforms%20and%20tools/PyCaret/) use PyCaret 3.5.0, installed from the `pycaret-core` package (the old `pycaret` package does not support Python 3.12 or newer).
+
+- **Google Colab:** open the notebook with its Colab badge and run it from the top. The first code cell installs everything.
+- **Your own machine (conda):** from the root of this repo:
+
+  ```bash
+  conda env create -f environment.yml
+  ```
+
+  ```bash
+  conda activate dl_pycaret
+  ```
+
+  ```bash
+  python scripts/check_environment.py
+  ```
+
+  Then select the `dl_pycaret` environment as the notebook kernel in JupyterLab or VS Code.
+
+The full guide and troubleshooting table are in the [PyCaret setup guide](./Platforms%20and%20tools/PyCaret/README.md).
 
 ## Fall 2026 course modules
 

@@ -1,0 +1,27 @@
+# The local conda environment for every PyCaret notebook in this course
+# (Module 3, the Module 6 PyCaret forecasting notebook, and Platforms and tools/PyCaret).
+#
+#   conda env create -f environment.yml
+#   conda activate dl_pycaret
+#   python scripts/check_environment.py
+#
+# Python 3.13 on purpose: it matches Google Colab, and on Python 3.12 or older pycaret-core
+# falls back to old numpy/pandas/scikit-learn versions that clash with PyTorch and TensorFlow.
+name: dl_pycaret
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13
+  - pip
+  - jupyterlab
+  - ipykernel
+  - ipywidgets
+  - pip:
+      # pycaret-core is the maintained fork of PyCaret 3 (same "import pycaret"). It is not on conda-forge.
+      - pycaret-core==3.5.0
+      # sktime's ETS forecaster breaks on statsmodels 0.15 (ETSResults.simulate() ... 'random_state')
+      - statsmodels>=0.14,<0.15
+      - lightgbm
+      - xgboost
+      - catboost
+      - shap          # interpret_model()

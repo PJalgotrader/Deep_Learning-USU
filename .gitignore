@@ -1,0 +1,8 @@
+# Claude migration playbook - local working notes, not course material
+pycaret_migration.md
+
+# Files PyCaret and Jupyter write next to a notebook when it runs
+logs.log
+catboost_info/
+.ipynb_checkpoints/
+__pycache__/
