@@ -25,3 +25,7 @@ dependencies:
       - xgboost
       - catboost
       - shap          # interpret_model()
+      # Python crash course (Module 2)
+      - seaborn
+      - yfinance
+      - openpyxl      # pd.read_excel / to_excel
