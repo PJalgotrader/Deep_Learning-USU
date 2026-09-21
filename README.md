@@ -32,7 +32,7 @@ See the [Fall 2026 course schedule](https://docs.google.com/spreadsheets/d/1qzFD
 | [`Platforms and tools/`](./Platforms%20and%20tools/) | Google Colab, PyCaret, uv (student quick start, cheat sheet, ten-second test) and development-tool resources |
 | [`data/`](./data/) | Course datasets used by selected notebooks and examples |
 | [`images/`](./images/) | Images used by this README and other repository materials |
-| [`pyproject.toml`](./pyproject.toml) + [`uv.lock`](./uv.lock) | The local **uv** environment (Python 3.13) for the PyCaret and scikit-learn notebooks. `requirements.txt` is an export of the same versions |
+| [`pyproject.toml`](./pyproject.toml) + [`uv.lock`](./uv.lock) | The local **uv** environment (Python 3.13) for the PyCaret and scikit-learn notebooks |
 | [`environment.yml`](./environment.yml) | The same environment for **conda** users (`dl_pycaret`) |
 | [`scripts/`](./scripts/) | `check_environment.py`, which confirms that the local environment works |
 
