@@ -1,5 +1,11 @@
 """Check that your local PyCaret environment for the Deep Learning course works.
 
+Run from the repository root. With uv:
+
+    uv run python scripts/check_environment.py
+
+With conda:
+
     conda activate dl_pycaret
     python scripts/check_environment.py
 
@@ -26,7 +32,8 @@ def fail(message):
 step("Python")
 print(f"  {sys.version.split()[0]}  ({sys.executable})")
 if sys.version_info[:2] != (3, 13):
-    fail("Expected Python 3.13. Create the environment from environment.yml and activate it.")
+    fail("Expected Python 3.13. Run `uv sync` at the repository root and use `uv run`, "
+         "or create the conda environment from environment.yml and activate it.")
 
 step("Packages")
 for name in ["pycaret", "numpy", "pandas", "sklearn", "scipy", "statsmodels", "sktime",

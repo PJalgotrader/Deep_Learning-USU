@@ -6,3 +6,9 @@ logs.log
 catboost_info/
 .ipynb_checkpoints/
 __pycache__/
+
+# local environments and OS files
+.venv/
+.DS_Store
+Thumbs.db
+*.py[cod]

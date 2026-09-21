@@ -29,32 +29,76 @@ See the [Fall 2026 course schedule](https://docs.google.com/spreadsheets/d/1qzFD
 | Path | Contents |
 | --- | --- |
 | [`Lectures and codes/`](./Lectures%20and%20codes/) | Module slides, notebooks, papers, and supporting examples |
-| [`Platforms and tools/`](./Platforms%20and%20tools/) | Google Colab, PyCaret, and development-tool resources |
+| [`Platforms and tools/`](./Platforms%20and%20tools/) | Google Colab, PyCaret, uv (student quick start, cheat sheet, ten-second test) and development-tool resources |
 | [`data/`](./data/) | Course datasets used by selected notebooks and examples |
 | [`images/`](./images/) | Images used by this README and other repository materials |
-| [`environment.yml`](./environment.yml) | The local conda environment (`dl_pycaret`, Python 3.13) for the PyCaret notebooks |
-| [`scripts/`](./scripts/) | `check_environment.py`, which confirms that the PyCaret environment works |
+| [`pyproject.toml`](./pyproject.toml) + [`uv.lock`](./uv.lock) | The local **uv** environment (Python 3.13) for the PyCaret and scikit-learn notebooks. `requirements.txt` is an export of the same versions |
+| [`environment.yml`](./environment.yml) | The same environment for **conda** users (`dl_pycaret`) |
+| [`scripts/`](./scripts/) | `check_environment.py`, which confirms that the local environment works |
 
-## Running the PyCaret notebooks
+## How to run the notebooks
 
-Module 3, one Module 6 forecasting notebook, and the demos in [`Platforms and tools/PyCaret/`](./Platforms%20and%20tools/PyCaret/) use PyCaret 3.5.0, installed from the `pycaret-core` package (the old `pycaret` package does not support Python 3.12 or newer).
+**One rule:** if a notebook trains a neural network (Keras 3 / TensorFlow: Modules 4 to 7), run it on **Google Colab with a GPU** (Runtime > Change runtime type > GPU). Keras and TensorFlow are preinstalled there; nothing to set up. Everything else (Module 3, the Module 6 PyCaret forecasting notebook, and the demos in [`Platforms and tools/PyCaret/`](./Platforms%20and%20tools/PyCaret/)) runs on Colab **or** on your own computer, in one local environment that you build with **uv** (recommended) or **conda**. Same three options as the Machine Learning and Deep Forecasting courses, same commands.
 
-- **Google Colab:** open the notebook with its Colab badge and run it from the top. The first code cell installs everything.
-- **Your own machine (conda):** from the root of this repo:
+| Notebooks | Where |
+| --- | --- |
+| Modules 4 to 7 (NN, CNN, RNN/LSTM, Transformers) | Google Colab, GPU runtime |
+| Module 3 (ML review, scikit-learn + PyCaret) and the PyCaret demos | Colab, or your computer (uv or conda) |
 
-  ```bash
-  conda env create -f environment.yml
-  ```
+The PyCaret notebooks use PyCaret 3.5.0 from the `pycaret-core` package (the old `pycaret` package does not run on Python 3.12 or newer, including Colab's). Their first cell installs it on Colab and does nothing on your own machine.
 
-  ```bash
-  conda activate dl_pycaret
-  ```
+### Option 1: Google Colab (nothing to install)
 
-  ```bash
-  python scripts/check_environment.py
-  ```
+Open the notebook with its Colab badge and run it from the top, in a fresh runtime (**Runtime > Disconnect and delete runtime** if you already imported PyCaret in that session).
 
-  Then select the `dl_pycaret` environment as the notebook kernel in JupyterLab or VS Code.
+### Option 2: your own computer with uv (recommended)
+
+[uv](https://docs.astral.sh/uv/) downloads Python 3.13, creates a `.venv` inside this repository and installs the exact versions recorded in `uv.lock`. It does not touch any Python or Anaconda you already have. New to uv? Start with [`Platforms and tools/uv/`](./Platforms%20and%20tools/uv/) (quick start, conda-to-uv cheat sheet, ten-second test).
+
+1. Install uv ([instructions](https://docs.astral.sh/uv/getting-started/installation/)), then reopen the terminal and check `uv --version`.
+
+   Windows (PowerShell):
+   ```powershell
+   powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+   ```
+   macOS / Linux:
+   ```bash
+   curl -LsSf https://astral.sh/uv/install.sh | sh
+   ```
+2. Clone into a normal local folder (not inside Google Drive or OneDrive) and build the environment:
+   ```bash
+   git clone https://github.com/PJalgotrader/Deep_Learning-USU.git
+   cd Deep_Learning-USU
+   uv sync
+   ```
+3. Check it:
+   ```bash
+   uv run python scripts/check_environment.py
+   ```
+   The last line must be `Your course environment is ready.`
+4. Start Jupyter:
+   ```bash
+   uv run jupyter lab
+   ```
+
+**VS Code:** register the environment once as a Jupyter kernel, then pick it with **Select Kernel > Jupyter Kernel > Python 3.13 (Deep Learning)**:
+
+```bash
+uv run python -m ipykernel install --user --name deep-learning --display-name "Python 3.13 (Deep Learning)"
+```
+
+### Option 3: your own computer with conda
+
+```bash
+git clone https://github.com/PJalgotrader/Deep_Learning-USU.git
+cd Deep_Learning-USU
+conda env create -f environment.yml
+conda activate dl_pycaret
+python scripts/check_environment.py
+jupyter lab
+```
+
+In VS Code, `dl_pycaret` shows up under **Select Kernel > Python Environments**.
 
 The full guide and troubleshooting table are in the [PyCaret setup guide](./Platforms%20and%20tools/PyCaret/README.md).
 

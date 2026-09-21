@@ -1,0 +1,33 @@
+[project]
+name = "deep-learning-course"
+version = "2026.9"
+description = "The one local Python environment for DATA 5610/6610 Deep Learning: the PyCaret and scikit-learn notebooks (Module 3, the Module 6 PyCaret forecasting notebook, Platforms and tools/PyCaret). The Keras / TensorFlow notebooks (Modules 4-7) run on Google Colab with a GPU."
+requires-python = ">=3.13,<3.14"
+dependencies = [
+    # --- PyCaret (community fork of PyCaret 3: same `import pycaret`, same API) ---
+    "pycaret-core==3.5.0",
+    # statsmodels 0.15 renamed ETSResults.simulate(random_state=) -> rng=, which breaks
+    # create_model('ets') through sktime 1.1.0. Drop this pin once sktime > 1.1.0 ships the
+    # fix merged 2026-09-13 (sktime PR 10972).
+    "statsmodels>=0.14,<0.15",
+    # gradient-boosting models used by compare_models()
+    "lightgbm>=4.0",
+    "xgboost>=2.0",
+    "catboost>=1.2",
+    # interpret_model() in the PyCaret regression/classification demos
+    "shap>=0.46",
+    # --- utilities used by the Python crash course and the notebooks ---
+    "seaborn>=0.13",
+    "yfinance>=0.2",
+    "openpyxl>=3.1",
+    # --- notebooks ---
+    "jupyterlab>=4",
+    "ipykernel",
+    "ipywidgets>=8",
+]
+
+[tool.uv]
+package = false
+# Always use a uv-managed Python. On Windows, uv would otherwise build the environment on top of an
+# Anaconda Python found on PATH, and Anaconda's bundled DLLs break compiled packages inside notebooks.
+python-preference = "only-managed"
