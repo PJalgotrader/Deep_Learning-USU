@@ -133,6 +133,6 @@ Pedram is also a project mentor with the [Analytics Solutions Center](https://hu
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pedram-jahangiry-cfa-5778015a)
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UCNDElcuuyX-2pSatVBDpJJQ)
-[![X](https://img.shields.io/twitter/url/https/twitter.com/PedramJahangiry.svg?style=social&label=Follow%20%40PedramJahangiry)](https://twitter.com/PedramJahangiry)
+[![X](https://img.shields.io/twitter/url/https/x.com/pjalgo.svg?style=social&label=Follow%20%40pjalgo)](https://x.com/pjalgo)
 
 <img src="images/Jahangirylogo.png" width="150" align="right" alt="Pedram Jahangiry logo">
